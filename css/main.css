@@ -1,0 +1,177 @@
+body {
+  -ms-overflow-style: none; /* Edge, Internet Explorer */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img:not(navbar-icon-style) {
+  width: auto;
+  height: 26px;
+}
+
+.info-jumbotron {
+  text-align: center;
+  color: ghostwhite;
+  border-radius: 0;
+  background: url(../static/bg.png) no-repeat;
+}
+
+.background, .info-jumbotron {
+  background-color: ghostwhite;
+}
+
+.btn-custom {
+  color: #4d4d4d;
+  background: lightgrey;
+  border-color: transparent;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #404040;
+  border-color: transparent;
+}
+
+.site-section {
+  padding: 50px 0 50px 0;
+}
+
+.about {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-summary, .about-features {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.footer {
+  text-align: center;
+  font-family: inherit;
+}
+
+.back-to-the-top {
+  cursor: pointer;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.table {
+  table-layout:fixed
+ }
+ .table th {
+  vertical-align:middle!important
+ }
+ .is-vertically-aligned {
+  vertical-align:middle
+ }
+ @media(min-width:469px) {
+  .table th {
+   width:180px
+  }
+ }
+ @media(max-width:468px) {
+  .table th {
+   padding-bottom:0!important;
+   border:none!important
+  }
+  .table tr:not(:first-of-type) th {
+   padding-top:1rem!important
+  }
+  .table td,
+  .table th {
+   display:block
+  }
+  .table td {
+   padding-bottom:1rem!important
+  }
+ }
+
+.box {
+ background-color:#ffffff;
+ border-radius:6px;
+ display:block;
+ padding:1.25rem;
+}
+
+@font-face {
+  font-family: 'minecraft';
+  src: url(./Minecraftia-Regular.ttf);
+}
+
+.preview-zone {
+  background-image: url(../static/dirt-bg.png);
+  background-repeat: repeat;
+  background-position: 4px 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'minecraft';
+  padding: 10px;
+  margin: 0 auto;
+  min-height: 82px;
+  line-height: 20px;  
+}
+
+#servericon {
+  float: left;
+  height: 64px;
+  width: 64px;
+  margin-right: 4px;
+}
+
+#hostname-zone {
+  display: block;
+  color: white;
+  display: inline-block;
+}
+
+#players-zone {
+  float: right;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAATUlEQVR4nGP4//8/AzUxVQ0bnAYy/Ff8z/Bf8f/gMRDTAAifoZ0fguluIGED6G0g6QbQ2kDKXUQvA8k2gOYGwr0KFaCUTzsDqYUHv4EAXEr1nnx+P+4AAAAASUVORK5CYII=) top right no-repeat;
+  color: white;
+  padding: 0 26px 0 0;
+  text-overflow: ellipsis;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.display-4 {
+  Background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+  background-size: 800% 800%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s ease infinite;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+
+/*# sourceMappingURL=main.css.map */
