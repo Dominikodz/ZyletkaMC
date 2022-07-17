@@ -1,5 +1,5 @@
 // Make a request for a user with a given ID
-axios.get('https://api.mcstatus.io/v1/status/java/graj.pierwsza-test.ga')
+axios.get('https://api.mcstatus.io/v1/status/java/graj.zyletkamc.ga')
 .then(function (response) {
     // handle success
     console.log(response);
