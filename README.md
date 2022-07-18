@@ -61,6 +61,10 @@ This site is using [Dynmap](https://github.com/webbukkit/dynmap)! You can change
 
 This site is using [MinecraftStats](https://github.com/pdinklag/MinecraftStats)! You can change the link for your server stats under navbar and about section.
 
+## MediaWiki
+
+This site is using [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki)! You can change the link for your server miki's url under navbar and about section.
+
 ## Warning!
 
 Source might be poorly coded but author is still learning.
